@@ -25,7 +25,7 @@ Follow the steps below to set up and run the project locally:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/survey-app.git
+   git clone https://github.com/garsetayusuf/survey-app.git
 
    ```
 
@@ -39,7 +39,7 @@ Follow the steps below to set up and run the project locally:
 3. Install the dependencies:
 
    ```bash
-   npm i
+   npm install
 
    ```
 
