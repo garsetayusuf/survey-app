@@ -26,9 +26,10 @@ const Result = () => {
 
   return (
     <div className="p-5 max-sm:w-full min-2xl:h-full md:w-full h-svh bg-gradient-to-b from-indigo-200 via-purple-200 to-pink-300 flex items-center justify-center flex-col gap-5">
-      <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold">
-        Hasil Survey {formData && toTitleCase(JSON.parse(formData).nama)}
-      </h1>
+      <div className="text-center text-2xl md:text-3xl lg:text-5xl font-bold">
+        <h1>Hasil Survey</h1>
+        <h1>{formData && toTitleCase(JSON.parse(formData).nama)}</h1>
+      </div>
       <table style={{ border: "1px solid #000", borderCollapse: "collapse" }}>
         <thead>
           <tr>
