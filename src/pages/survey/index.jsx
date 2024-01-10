@@ -56,7 +56,7 @@ const Survey = () => {
   };
 
   return (
-    <div className="p-5 max-sm:w-full max-2xl:h-full md:w-full h-svh bg-gradient-to-b from-indigo-200 via-purple-200 to-pink-300 flex items-center flex-col gap-4">
+    <div className="p-5 max-sm:w-full min-2xl:h-full md:w-full h-svh bg-gradient-to-b from-indigo-200 via-purple-200 to-pink-300 flex items-center flex-col gap-4">
       <Stepper step={currentStep}></Stepper>
       <div className="bg-white px-2 py-1 shadow-lg rounded-lg min-w-fit w-fit">
         Waktu: {moment.utc(counter * 1000).format("HH:mm:ss")}

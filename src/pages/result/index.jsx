@@ -25,8 +25,8 @@ const Result = () => {
   };
 
   return (
-    <div className="p-5 max-sm:w-full max-2xl:h-full md:w-full h-svh bg-gradient-to-b from-indigo-200 via-purple-200 to-pink-300 flex items-center justify-center flex-col gap-5">
-      <h1 className="text-5xl font-bold">
+    <div className="p-5 max-sm:w-full min-2xl:h-full md:w-full h-svh bg-gradient-to-b from-indigo-200 via-purple-200 to-pink-300 flex items-center justify-center flex-col gap-5">
+      <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold">
         Hasil Survey {formData && toTitleCase(JSON.parse(formData).nama)}
       </h1>
       <table style={{ border: "1px solid #000", borderCollapse: "collapse" }}>
@@ -82,7 +82,7 @@ const Result = () => {
             })}
         </tbody>
       </table>
-      <div className="flex flex-row justify-center items-center gap-4">
+      <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center gap-4">
         <button
           onClick={handlleRestart}
           className="min-w-[200px] h-max p-2 inline-flex items-center justify-center rounded-lg text-sm font-medium text-white bg-[#6A59A6] cursor-pointer"
