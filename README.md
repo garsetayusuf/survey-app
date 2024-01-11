@@ -52,9 +52,9 @@ Follow the steps below to set up and run the project locally:
 
 5. Open your browser and visit http://localhost:3000 to view the survey app.
 
-## Survey Configuration
+## Configuration
 
-- Default configuration 10 second
+- Default timer 10 second
 - Go to pages > index
 
   ```bash
